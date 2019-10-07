@@ -1,10 +1,11 @@
 <!DOCTYPE html>
+<!--html documentation file-->
 <html>
     <head> <title>Words Play</title></head>
     <body align="middle">
         <h1>This is Word Play</h1>
         <form action="/analyzed" method="POST" >{% csrf_token %}
-            <textarea name='text' style="margin: 0px; width: 764px; height: 149px;" ></textarea><br>
+            <textarea name='text' style="margin: 0px; width: 765px; height: 150px;" ></textarea><br>
             <input type="checkbox" name="removepunc">Remove Punchuations<br>
             <input type="checkbox" name="extraspaceremover">ExtraSpace Remover <br>   
             <input type="checkbox" name="extralineremover">Remove line<br>   
